@@ -1,8 +1,9 @@
+import MainPage from '../src/pages/MainPage';
 
 function App() {
   return (
     <div className="App">
-      teste
+      <MainPage />
     </div>
   );
 }
