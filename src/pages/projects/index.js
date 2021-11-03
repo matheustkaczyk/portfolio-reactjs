@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectsPage = () => {
     return (
-        <h1>UNDER CONSTRUCTION</h1>
+        <h1 className="projects-page">UNDER CONSTRUCTION</h1>
     );
 }
 
