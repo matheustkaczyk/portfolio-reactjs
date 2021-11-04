@@ -3,13 +3,39 @@ body {
     margin-top: 0;
     padding: 0;
     -ms-overflow-style: none;
-    background-color: black;
+    background-color: rgb(1, 1, 14);
 }
 
 .Header-Box {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(255, 255, 255, 0.5)); */
     width: 100vw;
     height: 10vh;
+    color: white;
+}
+
+.hero-div {
+    background-image: url(./images/background-notebook.jpg);
+    width: 100vw;
+    height: 86vh;
+}
+
+.links-div {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-top: 2%;
+}
+
+.info-div {
+    padding-top: 12%;
+}
+
+.link-item {
+    color:white;
+    text-decoration: none;
 }
 
 .hero-title {
@@ -17,6 +43,7 @@ body {
     font-family: IBM Plex Sans Devanagari;
     text-align: center;
     font-size: 5rem;
+    padding: 0;
 }
 
 .hero-subtitle {
