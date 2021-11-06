@@ -14,17 +14,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: center;
     padding-top: 2%;
     padding-bottom: 2%;
     height: 5%;
     width: 100%;
     /* background-color: rgba(3, 79, 132, 2); */
+    background-color: #006ee6;
+    border-bottom: 1px solid white;
 }
 
 .hero-div {
     /* background-image: url(./images/background-notebook.jpg); */
-    background-image: linear-gradient(#034f84, #6d597a);
+    background-image: linear-gradient(#0062cc, #0055b3);
     background-size: cover;
     height: 100vh;
 }
@@ -47,11 +49,11 @@
 }
 
 .link-item:hover {
-    color: #eca1a6;
+    color: #f79256;
 }
 
 .info-div {
-    padding: 10% 15% 15% 15%;
+    padding: 13% 15% 15% 15%;
     display: flex;
     flex-direction: column;
 }
@@ -61,13 +63,14 @@
     color: white;
     text-decoration: none;
     font-size: 1.50rem;
-    padding-left: 16%;
+    padding-left: 45%;
     width: 100%;
 }
 
 .hero-welcome {
-    color: #eca1a6;
+    color: #f79256;
     font-size: 2rem;
+    font-family: Ubuntu;
 }
 
 .hero-title {
@@ -83,14 +86,40 @@
     color: white;
     font-family: IBM Plex Sans Devanagari;
     font-size: 2rem;
+    color: #f79256;
 }
 
 .about-session {
-    background-image: linear-gradient(#eca1a6, white);
+    background-image: linear-gradient(#004999, #003d80);
     /* background-image:url("./images/background-notebook.jpg"); */
     background-size: cover;
     height: 100vh;
     width: 100vw;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.about-text {
+    font-size: 1.6rem;
+    font-family: Ubuntu;
+    color: white;
+    max-width: 30%;
+    max-height: 100%;
+    padding: 5%;
+    border: 3px solid white;
+    border-radius: 20%;
+}
+
+.about-img {
+    width: 15%;
+    height: 15%;
+    border: 3px solid white;
+    margin-left: 5%;
 }
 
 .projects-page {

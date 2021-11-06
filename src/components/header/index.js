@@ -7,7 +7,6 @@ const HeaderComponent = () => {
             <div className="links-div">
                 <a href="#inicio" className="link-item">Início</a>
                 <a href="#sobre" className="link-item">Sobre</a>
-                <a href="formacao" className="link-item">Formação</a>
                 <a href="competencias" className="link-item">Competências</a>
                 <a href="contato" className="link-item">Contato</a>
                 <Link className="link-item">Projetos</Link>
