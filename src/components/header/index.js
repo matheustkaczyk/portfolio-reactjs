@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const HeaderComponent = () => {
     return (
-        <div className="header-flex">
+        <nav className="header-flex">
             <div className="links-div">
                 <a href="#inicio" className="link-item">Início</a>
                 <a href="#sobre" className="link-item">Sobre</a>
@@ -28,7 +28,7 @@ const HeaderComponent = () => {
                     />
                 </a>
             </div> */}
-        </div>
+        </nav>
     );
 }
 
