@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderComponent from '../../components/header';
 import Main from '../../components/main';
+import About from '../../components/about';
 import '../../app.css';
 
 const MainPage = () => {
@@ -8,6 +9,7 @@ const MainPage = () => {
         <div>
             <HeaderComponent />
             <Main />
+            <About />
         </div>
     )
 }

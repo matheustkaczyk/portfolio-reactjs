@@ -4,6 +4,8 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 
@@ -17,11 +19,12 @@
     padding-bottom: 2%;
     height: 5%;
     width: 100%;
+    background-color: rgba(3, 79, 132, 2);
 }
 
 .hero-div {
     /* background-image: url(./images/background-notebook.jpg); */
-    background-image: linear-gradient(#034f84, #eaac8b);
+    background-image: linear-gradient(#034f84, #6d597a);
     background-size: cover;
     height: 100vh;
 }
@@ -35,16 +38,16 @@
     height: 50px;
 }
 
-.icon-ref {
-    float: right;
-}
-
 .link-item {
     color:white;
     font-family: Roboto Condensed;
     text-decoration: none;
     margin-left: 5%;
     margin-top: 5%;
+}
+
+.link-item:hover {
+    color: #eca1a6;
 }
 
 .info-div {
@@ -57,20 +60,21 @@
     position: fixed;
     color: white;
     text-decoration: none;
-    font-size: 2rem;
-    padding-left: 30%;
+    font-size: 1.50rem;
+    padding-left: 16%;
+    width: 100%;
 }
 
 .hero-welcome {
     color: #eca1a6;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .hero-title {
     position: relative;
     color: white;
     font-family: Ubuntu;
-    font-size: 8rem;
+    font-size: 6rem;
     padding: 0;
 }
 
@@ -78,7 +82,14 @@
     position: relative;
     color: white;
     font-family: IBM Plex Sans Devanagari;
-    font-size: 4rem;
+    font-size: 2rem;
+}
+
+.about-session {
+    background-image: linear-gradient(#eca1a6, white);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 .projects-page {
