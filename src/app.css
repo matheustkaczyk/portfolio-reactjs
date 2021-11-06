@@ -1,9 +1,9 @@
-body {
+* {
     margin: 0;
     margin-top: 0;
     padding: 0;
-    -ms-overflow-style: none;
-    background-color: rgb(1, 1, 14);
+    /* -ms-overflow-style: none; */
+    /* background-color: rgb(1, 1, 14); */
 }
 
 .Header-Box {
@@ -13,24 +13,30 @@ body {
     color: white;
 }
 
+.header-flex {
+    display: flex;
+}
+
 .hero-div {
     background-image: url(./images/background-notebook.jpg);
+    background-size: cover;
     width: 100vw;
-    height: 86vh;
+    height: 100vh;
 }
 
 .links-div {
+    position: fixed;
+    margin-left: 5%;
     display: flex;
     justify-content: space-around;
     align-self: center;
     color: white;
     text-decoration: none;
     font-size: 2rem;
-    padding-top: 2%;
 }
 
 .info-div {
-    padding-top: 12%;
+    padding: 5%;
 }
 
 .link-item {
@@ -39,20 +45,22 @@ body {
 }
 
 .hero-title {
+    position: absolute;
     color: white;
     font-family: IBM Plex Sans Devanagari;
-    text-align: center;
     font-size: 5rem;
     padding: 0;
+    margin-left: 30%;
+    margin-top: 15%;
+    background-color:rgba(128, 128, 128, 0.78) ;
 }
 
 .hero-subtitle {
+    position: absolute;
     color: white;
     font-family: IBM Plex Sans Devanagari;
-    text-align: center;
 }
 
 .projects-page {
     color: white
 }
-
