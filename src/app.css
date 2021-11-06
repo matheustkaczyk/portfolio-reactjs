@@ -1,47 +1,60 @@
 * {
     margin: 0;
-    margin-top: 0;
     padding: 0;
-    /* -ms-overflow-style: none; */
-    /* background-color: rgb(1, 1, 14); */
 }
 
-.Header-Box {
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(255, 255, 255, 0.5)); */
-    width: 100vw;
-    height: 10vh;
-    color: white;
-}
 
 .header-flex {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: #034f84;
+    padding-top: 3%;
 }
 
 .hero-div {
-    background-image: url(./images/background-notebook.jpg);
+    /* background-image: url(./images/background-notebook.jpg); */
+    background-color: #034f84;
     background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 
-.links-div {
+.icons-header {
     position: fixed;
+}
+
+.icon-item {
+    width: 50px;
+    height: 50px;
+}
+
+/* .icon-ref {
     margin-left: 5%;
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
-    color: white;
+} */
+
+.link-item {
+    color:white;
     text-decoration: none;
-    font-size: 2rem;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .info-div {
     padding: 5%;
 }
 
-.link-item {
-    color:white;
+.links-div {
+    position: fixed;
+    color: white;
     text-decoration: none;
+    font-size: 2rem;
+}
+
+.hero-welcome {
+    color: #eca1a6;
+    margin-top: 5%;
 }
 
 .hero-title {
@@ -50,15 +63,14 @@
     font-family: IBM Plex Sans Devanagari;
     font-size: 5rem;
     padding: 0;
-    margin-left: 30%;
-    margin-top: 15%;
-    background-color:rgba(128, 128, 128, 0.78) ;
+    margin-top: 5%;
 }
 
 .hero-subtitle {
     position: absolute;
     color: white;
     font-family: IBM Plex Sans Devanagari;
+    margin-top: 5%;
 }
 
 .projects-page {
