@@ -21,7 +21,7 @@
     width: 100%;
     /* background-color: rgba(3, 79, 132, 2); */
     background-color: #006ee6;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
 .hero-div {
@@ -33,6 +33,7 @@
 
 .icons-header {
     position: fixed;
+    float:left;
 }
 
 .icon-item {
