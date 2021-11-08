@@ -26,7 +26,7 @@
 
 .hero-div {
     /* background-image: url(./images/background-notebook.jpg); */
-    background-image: linear-gradient(#984063, #f64668);
+    background-image: linear-gradient(#41436a, #984063);
     background-size: cover;
     height: 100vh;
 }
@@ -54,7 +54,7 @@
 }
 
 .info-div {
-    padding: 13% 15% 15% 15%;
+    padding: 13% 15% 15% 23%;
     display: flex;
     flex-direction: column;
 }
@@ -91,7 +91,7 @@
 }
 
 .about-session {
-    background-image: linear-gradient(#f64668, #2c73d2);
+    background-image: linear-gradient(#984063, #f64668);
     /* background-image:url("./images/background-notebook.jpg"); */
     background-size: cover;
     height: 100vh;
@@ -124,7 +124,14 @@
 }
 
 .skills-session {
-    background-image: linear-gradient(#2c73d2, white);
+    background-image: linear-gradient(#f64668, #fe9677);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact-session {
+    background-image: linear-gradient(#fe9677, #feda77);
     background-size: cover;
     width: 100vw;
     height: 100vh;
