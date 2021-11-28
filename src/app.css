@@ -112,15 +112,13 @@
     max-width: 30%;
     max-height: 100%;
     padding: 3%;
-    border: 3px solid #41436a;
-    border-radius: 20%;
 }
 
 .about-img {
     width: 15%;
     height: 15%;
-    border: 3px solid #41436a;
     margin-left: 5%;
+    border-radius: 2%;
 }
 
 .skills-session {
