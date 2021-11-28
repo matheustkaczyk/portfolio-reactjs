@@ -1,6 +1,6 @@
 import React from 'react';
-import github from '../../images/github.png';
-import linkedin from '../../images/linkedin.png';
+// import github from '../images/github.png';
+// import linkedin from '../images/linkedin.png';
 
 const Contact = () => {
     return (

@@ -135,6 +135,30 @@
     height: 100vh;
 }
 
+.skills-section {
+    background-color: white;
+}
+
+.skills-hero-text {
+    font-size: large;
+    margin: 10% 10% 10% 10%;
+}
+
+.skills-div {
+    display: flex;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skills-item {
+    width: 10vw;
+    height: 15vh;
+}
+
 .projects-page {
     color: white
 }
